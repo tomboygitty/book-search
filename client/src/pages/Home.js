@@ -53,9 +53,8 @@ class Home extends Component {
       authors: book.volumeInfo.authors,
       description: book.volumeInfo.description,
       image: book.volumeInfo.imageLinks.thumbnail
-    }).then(() => { this.getBooks();
-      console.log("book saved");
-    });
+    }).then(() => this.getBooks()
+      );
   };
 
   render() {
