@@ -2,7 +2,7 @@
 Google Books Search
 
 ## Description
-This is a React-based app that searches the Google Books API and displays the results. Books can be saved to an API server.
+This is a React-based app that searches the Google Books API and displays the results. Books can be saved to a MongoDB database.
 
 ## Motivation
 To learn about React states and components. To gain experience with API calls.
